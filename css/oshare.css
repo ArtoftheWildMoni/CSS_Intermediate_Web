@@ -1,1 +1,14 @@
 @charset "UTF-8";
+*{
+  box-sizing: border-box;
+}
+*{
+  position: relative;
+  margin: 0;
+  background: black;
+  display: grid;
+  grid-template-columns:
+    [left] 20px [main] 1fr [end] 20px [right];
+  grid-template-rows:
+    [header]auto[main]auto[aside]auto[footer]auto[bottom];
+}
