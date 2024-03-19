@@ -124,3 +124,31 @@ nav.open{
     padding:20px;
   }
 }
+
+.menubutton{
+  position: fixed;
+  top:0;
+  left:0;
+  cursor:pointer;
+  z-index:100;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background: black;
+  display: none;
+}
+.menubutton i {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: white;
+  margin-bottom: 7.5px;
+  }
+.menubutton i:last-child{
+  margin-bottom:0;
+}  
+@media(max-width:840px){
+  .menubutton{
+    display:block;
+  }
+}
