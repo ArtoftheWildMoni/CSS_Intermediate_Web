@@ -105,3 +105,22 @@ nav li{
 nav li:hover{
   background:white;
 }
+nav.open{
+  display:block;
+}
+@media(max-width:840px){
+  nav{
+    position:fixed;
+    display:none;
+  }
+  nav ul{
+    flex-direction:column;
+    height:100vh;
+    padding-top:40px;
+    background:rgba(255,255,255,.9);
+  }
+  nav li{
+    width:100%;
+    padding:20px;
+  }
+}
