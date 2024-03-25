@@ -225,3 +225,12 @@ aside{
     align-items: flex-start;
   }
 }
+footer{
+  grid-column-start:left;
+  grid-column-end: right;
+  grid-row-start: footer;
+  grid-row-end: bottom;
+  text-align: center;
+  background: white;
+  padding: 10px 0;
+}
